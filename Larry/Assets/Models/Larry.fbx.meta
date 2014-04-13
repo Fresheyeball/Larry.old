@@ -46,6 +46,8 @@ ModelImporter:
     4300000: Scarf
     4300002: Larry
     7400000: Idle
+    7400002: Walk
+    7400004: Idle0
     9500000: //RootNode
     13700000: Larry
     13700002: Scarf
@@ -66,7 +68,7 @@ ModelImporter:
     clipAnimations:
     - serializedVersion: 16
       name: Idle
-      takeName: ArmatureAction
+      takeName: Idle
       firstFrame: 0
       lastFrame: 100
       wrapMode: 0
@@ -74,8 +76,72 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Left_Leg
+        weight: 1
+      - path: Armature/Right_Leg
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Face
+        weight: 1
+      - path: Armature/Spine/Face/Nose
+        weight: 1
+      - path: Armature/Spine/Head
+        weight: 1
+      - path: Armature/Spine/Head/Hat
+        weight: 1
+      - path: Armature/Spine/Left_Shoulder
+        weight: 1
+      - path: Armature/Spine/Left_Shoulder/Left_Upper_Arm
+        weight: 1
+      - path: Armature/Spine/Left_Shoulder/Left_Upper_Arm/Left_Forearm
+        weight: 1
+      - path: Armature/Spine/Left_Shoulder/Left_Upper_Arm/Left_Forearm/Left_Hand
+        weight: 1
+      - path: Armature/Spine/Right_Shoulder
+        weight: 1
+      - path: Armature/Spine/Right_Shoulder/Right_Upper_Arm
+        weight: 1
+      - path: Armature/Spine/Right_Shoulder/Right_Upper_Arm/Right_Forearm
+        weight: 1
+      - path: Armature/Spine/Right_Shoulder/Right_Upper_Arm/Right_Forearm/Right_Hand
+        weight: 1
+      - path: Larry
+        weight: 1
+      - path: Scarf
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
